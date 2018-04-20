@@ -5,6 +5,7 @@ const HttpClient = require('node-rest-client').Client;
 // This should point to some commerce backend URL to GET product
 const url = 'http://isns-dps.com:1512/rest/V1.0/list/Article/bySearch?query=(Article.SupplierAID%20in%20(';
 // const url = 'http://localhost';
+// after change
 
 let sampleProductData = {
     pid: '123',
